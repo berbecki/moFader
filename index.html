@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/mootools-core-1.5.0-full-compat-yc.js"></script>
+        <script src="js/mo-fader.js"></script>
+        <script>
+        $(window).addEvent('domready', function() {
+			var myCarousel = new MoFader({
+			});
+		});
+        </script>
+    </head>
+    <body>
+
+        <div id="main">
+        	<h3>moFader</h3>
+        	<em>MooTools fader plugin</em>
+        	<section>
+        		<div id="my-fader-box">
+        			<ul id="my-fader">
+        				<li><a href="#"><img src="img/c-1.png" alt="placekitten"></a></li>
+        				<li><a href="#"><img src="img/c-2.png" alt="placekitten"></a></li>
+        				<li><a href="#"><img src="img/c-3.png" alt="placekitten"></a></li>
+        				<li><a href="#"><img src="img/c-4.png" alt="placekitten"></a></li>
+        				<li><a href="#"><img src="img/c-5.png" alt="placekitten"></a></li>
+        			</ul>
+        		</div>
+        	</section>
+        </div>
+
+    </body>
+</html>
